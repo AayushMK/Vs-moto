@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.nav {
+  background: white;
+  height: 100%;
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+.nav-sec-1 {
+  height: 8%;
+  background: black;
+  color: white;
+  text-align: center;
+}
+.nav-item-1 {
+  padding-top: 10px;
+}
+.nav-item-2 {
+  padding-top: 10px;
+}
+.nav-item-3 {
+  padding-top: 10px;
+}
+.nav-item-4 {
+  padding-top: 10px;
+}
+.nav-sec-2 {
+  height: 92%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.showcase {
+  background: red;
+  height: 100%;
+  width: 66%;
+}
+
+.description {
+  background: white;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
